@@ -1,0 +1,1 @@
+# Frontend Mentor - Huddle landing page with curved sections (front-end coding challenge)

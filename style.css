@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body .margin-button-10px {
+  margin-bottom: -5px;
+}
+body .BgPaleBlue {
+  background-color: hsl(207, 100%, 98%);
+}
+body img {
+  width: 100%;
+}
+body .text-center, body .benefit section .Head, body header .contentHeader .get-start header {
+  text-align: center;
+}
+body .headerText, body .benefit section .Head, body header .contentHeader .get-start header {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+body header .head-nav {
+  height: 30px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (min-width: 1440px) {
+  body header .head-nav {
+    margin-top: 50px;
+    font-size: 25px;
+  }
+}
+body header .head-nav img {
+  display: grid;
+  place-items: center;
+  height: 20px;
+  width: auto;
+}
+@media screen and (min-width: 1440px) {
+  body header .head-nav img {
+    height: 40px;
+  }
+}
+body header .head-nav .btn-header {
+  display: grid;
+  place-items: center;
+  padding: 10px 15px;
+  color: hsl(321, 100%, 78%);
+  border: 1px solid hsl(321, 100%, 78%);
+  border-radius: 25px;
+}
+body header .head-nav .btn-header:active {
+  opacity: 0.7;
+}
+body header .contentHeader {
+  display: grid;
+  place-items: center;
+}
+body header .contentHeader .get-start {
+  margin: 20px;
+  padding-top: 80px;
+  display: grid;
+  gap: 20px;
+}
+body header .contentHeader .get-start header {
+  padding: 0 20px;
+}
+@media screen and (min-width: 1440px) {
+  body header .contentHeader .get-start header {
+    font-size: 50px;
+  }
+}
+body header .contentHeader .get-start main {
+  text-align: center;
+}
+body header .contentHeader .get-start .btn {
+  font-family: "Poppins", sans-serif;
+  color: hsl(207, 100%, 98%);
+  border: 2px solid hsl(322, 100%, 66%);
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 25px;
+  display: grid;
+  place-items: center;
+  padding: 15px;
+  margin: 40px auto;
+}
+body header .contentHeader .get-start .btn:active {
+  opacity: 0.7;
+}
+@media screen and (min-width: 1440px) {
+  body header .contentHeader .get-start {
+    font-size: 25px;
+  }
+}
+body header .contentHeader .statistics {
+  margin: 20px;
+  display: grid;
+  gap: 80px;
+}
+body header .contentHeader .statistics img.icon {
+  width: 30px;
+}
+@media screen and (min-width: 1440px) {
+  body header .contentHeader .statistics img.icon {
+    width: 60px;
+  }
+}
+body header .contentHeader .statistics .mainText {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+}
+@media screen and (min-width: 1440px) {
+  body header .contentHeader .statistics .mainText {
+    font-size: 100px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  body header .contentHeader .statistics {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+body header .contentHeader img {
+  width: 80%;
+}
+body .benefit section {
+  padding: 0 20px;
+  display: grid;
+  place-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: grid;
+}
+body .benefit section div {
+  margin-bottom: 20px;
+}
+body .benefit section .Head {
+  font-size: 20px;
+  margin-top: 150px;
+}
+body .benefit section .btn2 {
+  font-family: "Poppins", sans-serif;
+  color: hsl(207, 100%, 98%);
+  border: 2px solid hsl(322, 100%, 66%);
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 25px;
+  display: grid;
+  place-items: center;
+  width: 200px;
+  padding: 15px;
+  margin: 40px auto;
+}
+body .benefit section .btn2:active {
+  opacity: 0.7;
+}
+@media screen and (min-width: 1440px) {
+  body .benefit section {
+    grid-template-columns: 1fr 1fr;
+  }
+  body .benefit section .order1 {
+    order: 1;
+  }
+  body .benefit section .order2 {
+    order: 2;
+  }
+}
+body .benefit section:last-child {
+  grid-template-columns: 1fr;
+}
+body footer {
+  background-color: hsl(192, 100%, 9%);
+  margin-top: -10px;
+  padding: 100px 20px 50px 20px;
+  color: azure;
+  font-family: "Open Sans", sans-serif;
+  display: grid;
+  gap: 100px;
+}
+body footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+body footer .footer-content .headerText, body footer .footer-content header .contentHeader .get-start header, body header .contentHeader .get-start footer .footer-content header, body footer .footer-content .benefit section .Head, body .benefit section footer .footer-content .Head {
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+body footer .footer-content .subscribe-section {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 15px;
+}
+body footer .footer-content .subscribe-section input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+}
+body footer .footer-content .subscribe-section .subscribe-btn {
+  font-family: "Poppins", sans-serif;
+  color: hsl(207, 100%, 98%);
+  border: 2px solid hsl(322, 100%, 66%);
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  width: 200px;
+  padding: 15px;
+}
+body footer .footer-content .subscribe-section .subscribe-btn:active {
+  opacity: 0.7;
+}
+body footer .footer-content .footer-logo {
+  height: 50px;
+}
+body footer .footer-content .footer-logo img {
+  height: 100%;
+  width: auto;
+}
+body footer .footer-content .footer-logo .logoText {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+}
+body footer .footer-content .phone {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+body footer .footer-content .phone img {
+  height: auto;
+  width: 25px;
+}
+body footer .footer-content .email {
+  display: flex;
+  gap: 20px;
+}
+body footer .footer-content .email img {
+  height: auto;
+  width: 25px;
+}
+@media screen and (min-width: 1440px) {
+  body footer {
+    grid-template-columns: 1fr 1fr;
+  }
+}/*# sourceMappingURL=style.css.map */
